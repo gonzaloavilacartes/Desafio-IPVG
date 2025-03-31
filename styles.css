@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #0a1931;
+    height: 70px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+}
+
+/* Seccion de Filtros*/
+.filtros {
+    width: 300px;
+    background-color: white;
+    padding-left: 32px;
+}
+
+.filtros h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.filtros h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 1px;
+}
+
+.filtros input[type="text"] {
+    width: 70%;
+    padding: 6px;
+    margin: 8px 0;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.checkbox-group {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    margin-bottom: 15px;
+}
+
+.boton-filtro {
+    width: 45%;
+    background-color: #0a1931;
+    color: white;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+/* Sección productos casillas */
+.productos {
+    flex-grow: 1;
+    padding-left: 10px;
+}
+
+.productos h2 {
+    font-size: 23px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.producto h3 {
+    font-size: 19px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.productos-grid {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.productos-grid,
+p {
+    font-size: 14px;
+}
+
+.producto {
+    width: 220px;
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.producto .imagen {
+    width: 195px;
+    height: 195px;
+    background-color: #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7px;
+}
+
+.producto .precio {
+    font-weight: bold;
+    font-size: 15px;
+    color: #000;
+}
+
+button {
+    background-color: transparent;
+    color: black;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px;
+    border: 2px solid black;
+    font-size: 10px;
+}
+
+/*
+button:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+*/
+.footer {
+    background-color: #2D3B59;
+    color: white;
+    padding: 30px 20px;
+    display: flex;
+    /*flex-direction: row;*/
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+.footer-izquierda-one {
+    text-align: left;
+}
+
+.footer-izquierda-two {
+    text-align: left;
+    padding-left: 2%;
+}
+
+.footer-copy {
+    text-align: center;
+    margin-top: 2%;
+    padding-left: 28%;
+}
